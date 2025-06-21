@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+</head>
+<body>
+  <h1>Contact Us</h1>
+
+  <form action="" method="POST">
+    <fieldset>
+      <legend>Personal Details</legend>
+      <label for="name">Name: <span style="color: red">*</span></label><br>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Email Address: <span style="color: red">*</span></label><br>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="telephone">Telephone Number:</label><br>
+      <input type="tel" id="telephone" name="telephone" list="tel-options"><br>
+      <datalist id="tel-options">
+        <option value="+60">
+        <option value="+61">
+        <option value="+65">
+      </datalist><br>
+      <label for="website">Website:</label><br>
+      <input type="url" id="website" name="website" list="site-options"><br>
+      <datalist id="site-options">
+        <option value="http://">
+        <option value="https://">
+      </datalist><br>
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+</body>
+</html>
