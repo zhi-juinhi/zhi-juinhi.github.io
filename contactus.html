@@ -29,6 +29,24 @@
       </datalist><br>
       <input type="submit" value="Submit">
     </fieldset>
+    
+     <fieldset>
+      <legend>Enquiry Information</legend>
+      <label for="enquiry-title">Enquiry Title:</label><br>
+      <input type="text" id="enquiry-title" name="enquiry-title"><br><br>
+      <label for="enquiry-type">Enquiry Type:</label><br>
+      <select id="enquiry-type" name="enquiry-type">
+        <option value="general">General Question</option>
+        <option value="support">Technical Support</option>
+        <option value="feedback">Feedback</option>
+        <option value="others">Others</option>
+      </select><br><br>
+      <label for="enquiry-description">Description:</label><br>
+      <textarea id="enquiry-description" name="enquiry-description" rows="5" cols="40" placeholder="Please describe your enquiry in detail..."></textarea><br>
+    </fieldset>
+    <br>
+    <input type="submit" value="Send Enquiry">
+    
   </form>
 </body>
 </html>
